@@ -1,0 +1,14 @@
+Git / Github
+Cd - entra na pasta escrita
+Dir - lista os diretorios da pasta
+mkdir - criacao de pasta
+del / rmdir - del deleta os arquivos do diretorio / deleta pasta e diretorio.
+
+-----------Objetos internos do Git------------ \0
+Blobs - QUando criptografados e adicionado pelo proprio git metadados arquivos, sha1  
+trees - uma arvore de metadados e blobs, com blobs e sha1 de blobs e da propria arvore
+Commits - junta tudo e dar sentido para altecoes, aponta para a arvore, blob, autor, mensagem, tree.
+
+
+------------------Markdown-------------------
+https://www.markdownguide.org/basic-syntax/

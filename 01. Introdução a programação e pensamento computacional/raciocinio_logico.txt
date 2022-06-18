@@ -1,0 +1,19 @@
+Raciocinio logico 
+Inducao Teoria atraves de experimentacao (empirismo eu vejo algo acontecendo `talvez seja por isso`)
+Deducao Ciencias exatas (inverso da inducao, provo atraves de calculos o porque acontece)
+Abducao Conclusao atraves de premissa (estabelece uma premissa `A grama esta molhada logo pode ter chovido` processo investigativo)
+
+
+Abstracao
+Observar um ou mais elementos trazer para o mundo abstrato para filtra-lo 
+e determinar processos para solucao de problemas
+
+Algoritmo e um passo a passo para realizar determinada tarefa, 
+Fluxograma e a apresentacao de um algoritmo com as imagens por exemplo( losango, quadrado, circulos para cada caso tomada de decisao e outros)
+
+
+Tipologia e variaveis 
+Numeros inteiros/Reais
+Booleano Verdadeiro/Falso
+
+
