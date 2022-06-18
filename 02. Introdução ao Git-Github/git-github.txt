@@ -12,3 +12,16 @@ Commits - junta tudo e dar sentido para altecoes, aponta para a arvore, blob, au
 
 ------------------Markdown-------------------
 https://www.markdownguide.org/basic-syntax/
+
+-----------------Clonar repositorio-------------------
+Entre no repositorio.
+botao Code.
+copie o HTTPS.
+no Git Bash de o comando git clone e cole. 
+
+---------------Como atualizar o GitHub passo a passo---------
+Abra o Git Bash na pasta dos arquivos/Clone.
+Comando "git status" para verificar as alteracoes.
+comando "git add ." para acrescentar as alteracoes.
+comando "git commit -m "comentario" " para commit as alteracoes.
+comando "git push" para envio ao GitHub. 
