@@ -1,0 +1,7 @@
+Tags:
+<a href="endereco de envio"> = Tag de Hiperlink para direcionamento para outra pagina.
+href = simples abre faz o direcionamento na mesma aba em que se esta navegando.
+href = "mailto:endereco de envio" = mailto direciona para o e-mail do usuario.
+< a href = "endereco" target="_blank"> = comando target="_blank" faz a abertura do link em outra aba.
+
+
