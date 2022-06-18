@@ -1,4 +1,4 @@
 # BootCamp-Santander
-Repositório para armazenamento das aulas do BootCamp Santander.
-01-introdução a programação e pensamento computacional.
-02-introdução ao Git e ao GitHub.
+## Repositório para armazenamento das aulas do BootCamp Santander.
+1. introdução a programação e pensamento computacional.
+2. introdução ao Git e ao GitHub.
