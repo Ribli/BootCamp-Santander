@@ -1,0 +1,78 @@
+Extensoes:
+	HTML Snippets: auto complete.
+	Live HTML Previewer: renderizacao de HTML em Tela.(ctrl+shift+P)
+
+
+Atalhos Uteis:
+	Criando diversas tags com a class= "tag.nomeClass*qtd"
+
+
+
+
+Display Flex : Faz o controle de um container colocando todos os filhos 
+lado a lado e os transformando em flex items.
+
+
+Flex Direction : Estabele o eixo principal do container, definindo a direcao.
+	row : Padrao esquerda para a direita.
+	row-reverse : direita para esquerda.
+	column : Cima para baixo.
+	column-reverse : Baixo para cima.
+
+
+Flex-wrap : Define se a linha quebra, quando os itens nao cabem no container..
+wrap-reverse : faz aquebra de linha de baixo para cima, quando os itens nao cabem no container.
+
+
+Flex-flow : um atalho para as prorpiedades de flex-wrap e flex-direction.
+	flex-flow: row nowrap / column wrap / row-reverse wrap-reverse / etc.
+
+Justify Content : alinha os items dentro do container.
+	flex-start: alinha no inicio do container.
+	flex-end: alinha no final do container.
+	center: centro do container.
+	space-between: espaco igual entre os elementos proximo das bordas.
+	space-around: espaco no meio sao duas vezes maiores que o inicial e o final.
+
+
+Align-Items : Alinhamento dos items de acordo com o eixo do container.
+Permite o alinhamento no eixo vertical.
+	center: Alinhamento dos itens ao centro
+	stretch: padrao, crescem igualmente de acordo com o maior elemento.
+	flex-start: alinhamento no inicio.
+	flex-end: alinhamento no final.
+	baseline: alinhamento de acordo com a linha base da tipografia/quebra_de_Linhas dos itens.
+
+Align-Content : Alinhamento das linhas em relacao ao eixo vertical do container.
+	Regras:	
+		QUe o container utilize quebra de linha flex-wrap.
+		QUe a altura do container seja maior que a soma das linhas dos itens.
+
+	center: Alinhamento dos itens ao centro
+	stretch: padrao, crescem igualmente de acordo com o maior elemento.
+	flex-start: alinha no inicio do container.
+	flex-end: alinha no final do container.
+	space-between: espaco igual entre os elementos proximo das bordas.
+	space-around: espaco no meio sao duas vezes maiores que o inicial e o final.
+
+
+Flex-grow : Define a proporcao de crescimento dos itens, respeitando o tamanho de seus conteudos internos.
+	Regras:
+		Nao funciona caso tenhamos adicionado o justify-content ao nosso flex container.
+
+
+FLex-basis : Estabelece o tamanho inicial dos itens antes tentando ocupar o espaco dentro do container, tentando respeitar o tamanho do elemento.
+	
+FLex-shrink : Estabelece ate que tamanho o item pode ser reduzido.
+
+Flex : e uma abreviacao a flex-grow, flex-basis e flex-shrink podenso usar os 3 atributos ao mesmo tempo 
+	Exemplo: 	flex: 1; = grow =1, shrink =1 e basis =0;
+			flex: 2; = grow =2, shrink =1 e basis =0;
+
+
+Order : Order atribui um posicionamento nos elementos, listando pela ordem atribuida.
+
+Align self : Alinhamento individual do item dentro do container.	
+	Regra: Nao se pode atribuir quando o container tem um align itens definido.
+
+ 
