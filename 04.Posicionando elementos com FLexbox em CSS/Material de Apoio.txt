@@ -38,7 +38,7 @@ Justify Content : alinha os items dentro do container.
 Align-Items : Alinhamento dos items de acordo com o eixo do container.
 Permite o alinhamento no eixo vertical.
 	center: Alinhamento dos itens ao centro
-	stretch: padrao, crescem igualmente de acordo com o maior elemento.
+	stretch: Preenchem o container.
 	flex-start: alinhamento no inicio.
 	flex-end: alinhamento no final.
 	baseline: alinhamento de acordo com a linha base da tipografia/quebra_de_Linhas dos itens.
@@ -75,4 +75,6 @@ Order : Order atribui um posicionamento nos elementos, listando pela ordem atrib
 Align self : Alinhamento individual do item dentro do container.	
 	Regra: Nao se pode atribuir quando o container tem um align itens definido.
 
- 
+ ------------------------- Responsividade -------------------------
+@media(max-width: 992px){ }
+@media(min-width: 991px){ }
