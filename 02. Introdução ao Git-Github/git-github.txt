@@ -13,6 +13,22 @@ Commits - junta tudo e dar sentido para altecoes, aponta para a arvore, blob, au
 ------------------Markdown-------------------
 https://www.markdownguide.org/basic-syntax/
 
+------------------------------------ Chave SSH ---------------------------------------------------
+Criar a chave SSH no git: "" = São utilizadas como comentarios neste arquivo.  
+	1: Entre no Git Bash
+	2: ssh-keygen -t ed25519 -C "seu e-mail"
+	3: Coloque sua senha
+	4: Verifique o lugar onde a sua chave foi salva
+	5: Digite cd "/c/Users/ribli/.ssh/" = exemplo de endereço onde a chave foi salva. 
+	6: Digite ls para verificar a id.
+	7: Digite cat id_ed2519.pub	
+	8: Um código irá aparecer em tela exemplo ssh-ed25519(utfkijghkjuljhghhugiuhukhvgygnuigbyigt7uig78t5977ut4t78y89yh)
+	9: Cole a chave apresentada no GitHub e salve.
+	10: Digite no Git Bash eval $(ssh-agent -s).
+	11: Vai aparecer na tela Agente pid (XXXX) que varia para start em plano de fundo.
+	12: Digite ssh-add id_ed25519
+	13: Digite a senha usada anteriormente.
+
 -----------------Clonar repositorio-------------------
 Entre no repositorio.
 botao Code.
