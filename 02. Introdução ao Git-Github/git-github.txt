@@ -13,6 +13,11 @@ Commits - junta tudo e dar sentido para altecoes, aponta para a arvore, blob, au
 ------------------Markdown-------------------
 https://www.markdownguide.org/basic-syntax/
 
+----------------------------------config inicial-----------------------------
+"Serve para colocar nome de usuario no git":
+	1: git config --global user.email "riblicleson@gmail.com"
+	2: git config --global user.name Ribli
+
 ------------------------------------ Chave SSH ---------------------------------------------------
 Criar a chave SSH no git: "" = São utilizadas como comentarios neste arquivo.  
 	1: Entre no Git Bash
