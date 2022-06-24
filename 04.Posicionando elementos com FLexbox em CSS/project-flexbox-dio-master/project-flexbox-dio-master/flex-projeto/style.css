@@ -92,14 +92,13 @@ p{
     margin-bottom: 15px; 
 }
 #planos{
-    flex-direction: column;
-    min-height: 60vh;
+    display: block;
+    padding-left: 15px;
 }
 .list-planos{
     display: flex;
     align-items: flex-end;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 .item-plano{
     flex: 1;
@@ -154,12 +153,12 @@ footer{
     padding-top: 10px;
 }
 /* Mobile */
-@media(max-width: 992px){
+@media(max-width: 700px){
     .flex-container {
         flex-direction: column;
     }
     .container-servicos{
-        height: 165vh;
+        height: 100%;
     }
     .container-servicos div{
         margin-bottom: 25px;     
@@ -169,6 +168,12 @@ footer{
     }
     .quem-somos{
         flex-direction: column-reverse;
+    }
+    .list-planos{
+        display: block;
+    }
+    .item-plano{
+        margin-bottom: 20px;
     }
     
 }
