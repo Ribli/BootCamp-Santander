@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+body{
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(241, 240, 240);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    background-color: rgb(236, 233, 233);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#phone{
+    width: 250px;
+}
+.group{
+    background-color: rgb(245, 244, 244);
+    max-width: 380px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid lightgray;
+}
+.image-perfil{
+    margin-bottom: 5px;    
+}
+.button-continue{
+    background-color: #0095f6;
+    padding: 5px 15px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bolder;
+}
+a{
+    margin-bottom: 20px;
+}
+.instagram-logo{
+    width: 150px;
+}
+#instagram-perfil{
+    width: 100px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+.menu-button div{
+    margin-bottom: 20px;
+}
+.account{
+    color: #0095f6;
+    font-weight: bolder;
+}
+.button{
+    width: 150px;
+}
+.not-is, p{
+    padding: 5px 0px 10px 0px;
+    color: rgb(160, 160, 160);
+    font-weight: bolder;
+}
+.app{
+    text-align: center;
+}
+h2{
+    color: rgb(160, 160, 160);
+    margin: 10px;
+}
