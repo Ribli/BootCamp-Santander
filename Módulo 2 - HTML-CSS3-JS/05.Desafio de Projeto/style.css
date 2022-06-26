@@ -10,13 +10,12 @@ body{
     justify-content: center;
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(241, 240, 240);
+    background-color: rgb(236, 233, 233);
     display: flex;
     justify-content: center;
 }
 .container{
     display: flex;
-    background-color: rgb(236, 233, 233);
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -73,4 +72,26 @@ a{
 h2{
     color: rgb(160, 160, 160);
     margin: 10px;
+}
+
+@media (max-width:1024px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px){
+    .container{
+        width: 90%;
+    }
+    #phone{
+        display: none;
+    }
+    body{
+        background-color: white;
+    }
+    .group{
+        background-color: white;
+        border: none;
+    }
 }
