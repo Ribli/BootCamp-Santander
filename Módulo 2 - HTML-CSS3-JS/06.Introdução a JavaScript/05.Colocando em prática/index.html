@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <h2>Contador</h2>
+    <p>Clique nos botões para alterar o valor.</p>
+    <!-- <div class="valor">
+        <input type="number" name="valor-inicial" id="value"><br>
+        <input type="submit" value="valor inicial" onclick="inicio()">
+    </div>
+    <div class="valor">
+        <input type="number" name="increment-decrement" id="calc"><br>
+        <input type="submit" value="valor para cálculo" onclick="calc()">
+    </div> -->
+
+    <div id="counter">
+        <button class="menos" name="Subtrair" onclick="decrement()">-</button>
+        <span id="currentNumber"> 0 </span>
+        <button class="mais" name="adicionar" onclick="increment()">+</button>
+    </div>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>

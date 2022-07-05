@@ -1,0 +1,33 @@
+*{
+    
+}
+body{
+    background-color: lightgray;
+}
+.Operadores{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container{
+    margin: 20px;
+}
+h1, h2{
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+}
+.tabela{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    text-align: center;
+}
+li{
+    background-color: white;
+    border: 1px solid ;
+    margin: 3px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.486);
+}

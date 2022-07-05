@@ -1,0 +1,39 @@
+*{
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.tabela{
+    display: flex;
+    justify-content: center;
+}
+li{
+    min-height: 20px;
+    min-width: 90px;
+    border: 2px solid black;
+    margin-bottom: 2px;
+    text-align: center;
+    padding: 0px 12px;
+}
+ul{
+    margin: 0;
+    padding: 2px;
+}
+.sim{
+    color: green;
+    font-weight: bolder;
+}
+.nao{
+    color: red;
+    font-weight: bolder;
+}
+.tit{
+    background-color: lightskyblue;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px black;
+}

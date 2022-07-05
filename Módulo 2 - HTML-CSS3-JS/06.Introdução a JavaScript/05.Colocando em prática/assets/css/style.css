@@ -1,0 +1,47 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(177, 225, 255);
+}
+.valor{
+    margin-bottom: 10px;
+    text-align: center;
+}
+button{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.mais{
+    border: 2px solid blue;
+    color: blue;
+}
+.menos{
+    border: 2px solid red;
+    color: red;
+}
+#currentNumber{
+    text-align: center;
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: inline-block;
+    border: 2px solid black;
+    min-width: 25px;
+    min-height: 25px;
+}
+#counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
